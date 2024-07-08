@@ -2,7 +2,7 @@
 //  AppIntent.swift
 //  ImageShowCaseWidget
 //
-//  Created by Liyi Liu on 7/7/24.
+//  Created by Lishen Liu on 7/7/24.
 //
 
 import WidgetKit
@@ -10,9 +10,10 @@ import AppIntents
 
 struct ConfigurationAppIntent: WidgetConfigurationIntent {
     static var title: LocalizedStringResource = "Configuration"
-    static var description = IntentDescription("This is an example widget.")
+    static var description = IntentDescription("A widget that shows selected photo")
 
-    // An example configurable parameter.
-    @Parameter(title: "Favorite Emoji", default: "😃")
-    var favoriteEmoji: String
+    @Parameter(title: "Show Date", default: true)
+    var showDate: Bool
+    @Parameter(title: "White Font", default: true)
+    var fontColor: Bool
 }

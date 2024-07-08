@@ -1,8 +1,8 @@
 //
-//  ResizeImageHelper.swift
+//  ResizeImage.swift
 //  PhotoWidget
 //
-//  Created by Lishen Liu on 7/7/24.
+//  Created by Liyi Liu on 7/7/24.
 //
 
 import Foundation
